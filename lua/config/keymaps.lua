@@ -1,7 +1,7 @@
 vim.g.mapleader = ' '
 
 -- FileManagers
-vim.keymap.set('n', '-', '<CMD>Oil<CR>')
+vim.keymap.set('n', '-', '<CMD>lua MiniFiles.open()<CR>')
 
 -- Tabs
 vim.keymap.set('n', '<A-Tab>', '<CMD>BufferNext<CR>')

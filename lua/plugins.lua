@@ -3,7 +3,7 @@ return {
 	{ 'nvim-lualine/lualine.nvim', opts = {} },
 	{ 'akinsho/toggleterm.nvim', opts = {} },
 	'catppuccin/nvim',
-	{ 'stevearc/oil.nvim', opts = {} },
+	{ 'echasnovski/mini.files', opts = {} },
 	'neovim/nvim-lspconfig',
 	'hrsh7th/nvim-cmp',
 	{ 'folke/trouble.nvim', opts = {} },
