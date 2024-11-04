@@ -11,7 +11,6 @@ return {
 	{ 'folke/persistence.nvim', event = 'BufReadPre', opts = {} },
 	'nvim-telescope/telescope.nvim',
 	{ 'romgrk/barbar.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } },
-	{ 'folke/noice.nvim', event = 'VeryLazy', opts = {}, dependencies = { 'MunifTanjim/nui.nvim', { 'rcarriga/nvim-notify', opts = {background_colour = '#000000'} } }, },
 	'goolord/alpha-nvim',
 	'neovim/nvim-lspconfig',
 	'hrsh7th/cmp-nvim-lsp',
@@ -25,6 +24,9 @@ return {
 	'dcampos/cmp-emmet-vim',
 	{ 'Exafunction/codeium.nvim', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { enable_chat = true } },
 	'nvim-treesitter/nvim-treesitter',
+	{ 'lukas-reineke/indent-blankline.nvim', main = 'ibl', opts = {} },
 	'fatih/vim-go',
 	{ 'folke/flash.nvim', event = 'VeryLazy', opts = { modes = { search = { enabled = true } } } },
+	{ 'windwp/nvim-autopairs', event = "InsertEnter", config = true }
+
 }
