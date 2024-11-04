@@ -25,7 +25,19 @@ return {
 	{ 'Exafunction/codeium.nvim', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { enable_chat = true } },
 	'nvim-treesitter/nvim-treesitter',
 	{ 'lukas-reineke/indent-blankline.nvim', main = 'ibl', opts = {} },
-	'fatih/vim-go',
+	{
+		"ray-x/go.nvim",
+		dependencies = {
+			"ray-x/guihua.lua",
+			"neovim/nvim-lspconfig",
+			"nvim-treesitter/nvim-treesitter",
+		},
+		config = function()
+			require("go").setup()
+		end,
+		event = {"CmdlineEnter"},
+		ft = {"go", 'gomod'},
+	},
 	{ 'folke/flash.nvim', event = 'VeryLazy', opts = { modes = { search = { enabled = true } } } },
 	{ 'windwp/nvim-autopairs', event = "InsertEnter", config = true }
 
