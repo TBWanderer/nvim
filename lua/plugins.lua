@@ -22,7 +22,6 @@ return {
 	'hrsh7th/vim-vsnip',
 	'mattn/emmet-vim',
 	'dcampos/cmp-emmet-vim',
-	{ 'Exafunction/codeium.nvim', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { enable_chat = true } },
 	'nvim-treesitter/nvim-treesitter',
 	{ 'lukas-reineke/indent-blankline.nvim', main = 'ibl', opts = {} },
 	{
