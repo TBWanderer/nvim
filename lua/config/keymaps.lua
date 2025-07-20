@@ -25,3 +25,4 @@ vim.api.nvim_set_keymap("n", "<leader>ql", [[<cmd>lua require("persistence").loa
 -- Trouble
 vim.keymap.set('n', '<leader>tt', '<CMD>Trouble diagnostics toggle<CR>')
 vim.keymap.set('n', '<leader>tl', '<CMD>Trouble lsp toggle<CR>')
+vim.keymap.set('n', '<leader>r', '<CMD>LspRestart<CR>')
