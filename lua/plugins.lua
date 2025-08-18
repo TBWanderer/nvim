@@ -22,6 +22,12 @@ return {
 	'hrsh7th/vim-vsnip',
 	'mattn/emmet-vim',
 	'dcampos/cmp-emmet-vim',
+	{ 'ak5/vim-lsp-typescript', dependencies = { 
+		'prabirshrestha/async.vim', 
+		'prabirshrestha/vim-lsp',
+		'prabirshrestha/asyncomplete.vim',
+		'prabirshrestha/asyncomplete-lsp.vim'
+	} },
 	'nvim-treesitter/nvim-treesitter',
 	{ 'lukas-reineke/indent-blankline.nvim', main = 'ibl', opts = {} },
 	{

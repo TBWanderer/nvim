@@ -1,5 +1,8 @@
 {
   "alpha-nvim": { "branch": "main", "commit": "de72250e054e5e691b9736ee30db72c65d560771" },
+  "async.vim": { "branch": "master", "commit": "2082d13bb195f3203d41a308b89417426a7deca1" },
+  "asyncomplete-lsp.vim": { "branch": "master", "commit": "cc5247bc268fb2c79d8b127bd772514554efb3ee" },
+  "asyncomplete.vim": { "branch": "master", "commit": "016590d2ca73cefe45712430e319a0ef004e2215" },
   "barbar.nvim": { "branch": "master", "commit": "807bede7ef1d8e2ac5f108e9ac8123b1e2d321e3" },
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
   "cmp-cmdline": { "branch": "main", "commit": "d250c63aa13ead745e3a40f61fdd3470efde3923" },
@@ -27,5 +30,7 @@
   "telescope.nvim": { "branch": "master", "commit": "a4ed82509cecc56df1c7138920a1aeaf246c0ac5" },
   "toggleterm.nvim": { "branch": "main", "commit": "9a88eae817ef395952e08650b3283726786fb5fb" },
   "trouble.nvim": { "branch": "main", "commit": "85bedb7eb7fa331a2ccbecb9202d8abba64d37b3" },
+  "vim-lsp": { "branch": "master", "commit": "04428c920002ac7cfacbecacb070a8af57b455d0" },
+  "vim-lsp-typescript": { "branch": "master", "commit": "2b2341aa1f59bd8c3201638fc191ff1e559b5949" },
   "vim-vsnip": { "branch": "master", "commit": "b7445b3c43acb08c0b74350d046e0088ece88033" }
 }
